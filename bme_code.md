@@ -11,7 +11,7 @@ In this example, we will read the included Bosch [BME280]((https://www.bosch-sen
 You can use any '3V' and 'G' pins to supply power to the sensor. The `SCL` and `SDA` pins are connected to `D5` and `D6`, respectively.
 
 | NodeMCU board pin | Wire colour | Sensor pin | What is this |
-|:------------:|:------------:|---------:|:--------:|
+|:------------:|:------------:|:---------:|:--------:|
 | 3V | Red | VIN | The 3.3V power supply for the BME sensor |
 | G | Black | GND | The ground for the sensor |
 | D5 | Yellow | SCL | The `SCL` (clock) I2C line |
