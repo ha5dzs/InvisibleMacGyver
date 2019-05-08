@@ -64,7 +64,7 @@ unsigned int the_address_of_my_variable = &my_variable; // this value will be 25
 ```
 ...and conversely, you can set up a pointer that points to the memory address of your variable, which is done this way:
 ```
-unsigned int my_pointer = 255; // This now points to the data at address 255.
+unsigned int *my_pointer = 255; // This now points to the data at address 255.
 ```
 Once you set up the pointer, you can access the data directly, with the pointer operator:
 ```
