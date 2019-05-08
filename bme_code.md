@@ -23,7 +23,7 @@ You can use any '3V' and 'G' pins to supply power to the sensor. The `SCL` and `
 
 Before we begin, we need to modify a `#define` in the BME library's header file, because the sensor uses different addresses depending on what kind of power supply it gets. Since we use 3.3V, we need to change this address manually:  
 
-** Go to your Arduino directory, then: `libraries/Adafruit_BME280_library`, and edit `Adafruit_BME280.h`. Look for this in the code:
+**Go to your Arduino directory, then: `libraries/Adafruit_BME280_library`, and edit `Adafruit_BME280.h`. Look for this in the code:**
 ```
 /**************************************************************************/
 /*! 
