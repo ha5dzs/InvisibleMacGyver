@@ -85,8 +85,8 @@ In the serial monitor (Tools -> Serial Monitor), you will see the following mess
 
 - These are messages from the bootloader
 
-```
-12:12:08.431 -> tail 8
+```
+12:12:08.431 -> tail 8
 12:12:08.431 -> chksum
 ```
 
