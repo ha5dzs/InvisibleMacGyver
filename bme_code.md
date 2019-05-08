@@ -9,6 +9,7 @@ In this example, we will read the included Bosch [BME280]((https://www.bosch-sen
 ![bme_assembled](images/bme_assembled.jpg)
 
 You can use any '3V' and 'G' pins to supply power to the sensor. The `SCL` and `SDA` pins are connected to `D5` and `D6`, respectively.
+
 | NodeMCU board pin | Wire colour | Sensor pin | What is this |
 |:------------:|:------------:|---------:|:--------:|
 | 3V | Red | VIN | The 3.3V power supply for the BME sensor |
@@ -70,7 +71,7 @@ When you open the serial monitor (in Arduino, go to 'Tools' -> 'Serial monitor')
 
 When you press RESET on the NodeMCU board, you will see some other lines appearing too:
 
-This one looks garbage because it was transmitted at a lower baud rate, and is coming from the ESP chip's bootloader.
+In the serial monitor, there are some characters that look garbage because it was transmitted at a lower baud rate, and is coming from the ESP chip's bootloader. We don't need to worry about these.  
 ```
 12:58:35.753 -> BME sensor found.
 ```
