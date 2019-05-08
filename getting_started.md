@@ -81,4 +81,6 @@ Uploading 289728 bytes from /var/folders/q7/2vs8j0w51pq6qjms00g3w97c0000gn/T/ard
 
 After this, the blue LED should blink. That's it!
 
+### [Download code here](arduino_code_files/blink_test/blink_test.ino)
+
 # Now you know the basics, head back to the [main page](README.md) and assemble some circuits
