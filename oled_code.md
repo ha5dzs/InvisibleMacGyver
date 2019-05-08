@@ -5,8 +5,9 @@ Before trying this example, [make sure you can upload code to your board](gettin
 ## Assemble the following circuit
 ![oled_assembled](images/oled_assembled.jpg)
 The display is powered from the NodeMCU board's 3.3V supply, and is communicating via [I2C](glossary.md). **Since the OLED screen uses little organic LEDs in its pixels, the power consumption is proportional with the number of pixels lit. Additionally, displaying the same information for a long time will result in burnt-in pixels.** If you are conscious about the power you are consuming, you can reduce the power consumption by simply inverting the display when more than 50% of the pixels are lit. To reduce burn-in, you could add a random pixel offset to everything you want to display every few minutes or so.  
+
 | NodeMCU board pin | Wire colour | Display pin | What is this |
-|------------|------------|---------| -------- |
+|:------------:|:------------:|:---------:|:--------:|
 | D6 | Green | SDA | The `SDA` line of the I2C bus |
 | D5 | Yellow | SCL | The `SCL` line of the I2C bus |
 | 3V | Red | VCC | Power, +3.3V |
