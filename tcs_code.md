@@ -12,7 +12,7 @@ The built-in [ADC](glossary.md) for each channel is 16-bits, so the returned val
 The sensor is powered from the board's 3.3V supply. It is connected via the I2C bus (`SDA`: `D5` and `SDA`: `D6`). The built-in LED is turned off connecting its pin to the ground, and we don't use the INT pin.
 
 | Board pin | Wire colour | Sensor pin | What is this |
-|------------|------------|---------| -------- |
+:------------:|:------------:|:---------:|:--------:|
 | G | Brown | LED | This is the control pin for the LED. |
 | - | N/A | INT | This pin should not be connected anywhere. |
 | D6 | Green | SDA | The `SDA` (data) I2C line |
@@ -83,7 +83,7 @@ Serial.print(colour_temperature);
 Serial.println(" Kelvin");
 ```
 
-There is a delay to prevent flooding, and a typical output looks like this if you open the serial monitor (in Arduino, go to 'Tools' -> 'Serial monitor'), after you set your baud rate to 115200:  
+There is a delay to prevent flooding, and a typical output looks like this if you open the serial monitor (in Arduino, go to 'Tools' -> 'Serial monitor'), after you set your baud rate to 115200.  
 In the serial monitor, there are some characters that look garbage because it was transmitted at a lower (9600) baud rate, and is coming from the ESP chip's bootloader. We don't need to worry about these.  
 The statements from the `loop()` function are here:
 ```
