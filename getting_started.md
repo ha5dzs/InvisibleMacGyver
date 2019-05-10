@@ -5,6 +5,8 @@ Even the most complicated and fancy projects start with a very simple step. Blin
 ---
 ### For tl;dr types:
 - Download the [Arduino IDE](https://www.arduino.cc/en/Main/Software), install [the ESP8266 board support package](arduino.md) to be used with the NodeMCU board, load the [included code](arduino_code_files/blink_test/blink_test.ino) into the editor, and verify whether it compiles. If you get stuck, [read this](arduino.md).  
+- Connect the USB cable, verify if [you can see the serial port](nodemcu_intro.md).
+- [Load this code](arduino_code_files/blink_test/blink_test.ino), select the 'NodeMCU' board, and the serial port.
 - Put the board into flash mode the following way:
 > 1., Press and hold the `RESET` button  
 > 2., Press and hold the `FLASH` button  
