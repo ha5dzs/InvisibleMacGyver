@@ -6,13 +6,13 @@ Even the most complicated and fancy projects start with a very simple step. Blin
 ### For tl;dr types:
 - Download the [Arduino IDE](https://www.arduino.cc/en/Main/Software), install [the ESP8266 board support package](arduino.md) to be used with the NodeMCU board, load the [included code](arduino_code_files/blink_test/blink_test.ino) into the editor, and verify whether it compiles. If you get stuck, [read this](arduino.md).  
 - Connect the USB cable, verify if [you can see the serial port](nodemcu_intro.md).
-- [Load this code](arduino_code_files/blink_test/blink_test.ino), select the 'NodeMCU' board, and the serial port.
+- Copy and paste the clode below or [download and open this `.ino` file](arduino_code_files/blink_test/blink_test.ino), select the 'NodeMCU' board, and the serial port.
 - Put the board into flash mode the following way:
 > 1., Press and hold the `RESET` button  
 > 2., Press and hold the `FLASH` button  
 > 3., Release the `RESET` button  
 > 4., Release the `FLASH` button  
-- Press the `Upload` button, wait for the flashing process to finish, and then witness the one-second-blinking action of the integrated blue LED.  
+- Press the `Upload` (the one with the little arrow) button, wait for the to be compiled and uploaded to the board, and then witness the one-second-blinking action of the integrated blue LED.  
 
 If you want to read more about this board, [read this](nodemcu_intro.md). For the adventurous types, there is a rather superficial and Arduino-focused [description of the C programming language](programming_in_c.md).
 
@@ -85,4 +85,4 @@ After this, the blue LED should blink. That's it!
 
 ### [Download code here](arduino_code_files/blink_test/blink_test.ino)
 
-# Now you know the basics, head back to the [main page](README.md) and assemble some circuits
+# Now you know the basics, head back to the [main page](README.md) and assemble some circuits. You can try them in any order, they don't depend on each other. The blinking code is now stored in the flash memory of the board, and will stay there for the next decade or so, or until you upload something else.
