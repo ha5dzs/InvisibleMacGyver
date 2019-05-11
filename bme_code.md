@@ -1,6 +1,7 @@
 # Reading the BME280 sensor
 
-Before trying this example, [make sure you can upload code to your board](getting_started.md), and you have [downloaded the required libraries](arduino.md). We will also use [some debugging techniuqes](debug.md) too.
+Before trying this example, [make sure you can upload code to your board](getting_started.md), and you have [downloaded the required libraries](arduino.md). We will also use [some debugging techniuqes](debug.md) too.  
+In order to try this example, please download the `.ino` file at the bottom of the page.
 
 In this example, we will read the included Bosch [BME280]((https://www.bosch-sensortec.com/bst/products/all_products/bme280)) environment sensor. It is connected to the NodeMCU board via [I2C](glossary.md), and is powered from the board itself. The measurements are sent back via the [UART](glossary.md), so we can see the values in the serial monitor.
 

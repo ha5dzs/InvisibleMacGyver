@@ -1,6 +1,7 @@
 # Using the OLED display
 
-Before trying this example, [make sure you can upload code to your board](getting_started.md), and you have [downloaded the required libraries](arduino.md). We will also use [some debugging techniuqes](debug.md) too. Additionally, it would help if you [read how the Adafruit GFX library works](https://learn.adafruit.com/adafruit-gfx-graphics-library?view=all). While the included [SSD1306 OLED screen](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) can only use a fraction of its capabilities, the same library can be used with a large number of different displays.
+Before trying this example, [make sure you can upload code to your board](getting_started.md), and you have [downloaded the required libraries](arduino.md). We will also use [some debugging techniuqes](debug.md) too. Additionally, it would help if you [read how the Adafruit GFX library works](https://learn.adafruit.com/adafruit-gfx-graphics-library?view=all). While the included [SSD1306 OLED screen](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) can only use a fraction of its capabilities, the same library can be used with a large number of different displays.  
+In order to try this example, please download the `.ino` file at the bottom of the page.
 
 ## Assemble the following circuit
 ![oled_assembled](images/oled_assembled.jpg)

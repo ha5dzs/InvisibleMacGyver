@@ -1,6 +1,7 @@
 # Accessing the SD card
 
-Before trying this example, [make sure you can upload code to your board](getting_started.md), and you have [downloaded the required libraries](arduino.md). We will also use [some debugging techniuqes](debug.md) too.
+Before trying this example, [make sure you can upload code to your board](getting_started.md), and you have [downloaded the required libraries](arduino.md). We will also use [some debugging techniuqes](debug.md) too.  
+In order to try this example, please download the `.ino` file at the bottom of the page.
 
 In this example, we will use the [FAT32](https://support.microsoft.com/en-us/help/154997/description-of-the-fat32-file-system) file system on the card, and we will access the card using [SPI](glossary.md) mode using the NodeMCU's Hardware SPI.  
 

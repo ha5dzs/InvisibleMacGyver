@@ -1,6 +1,7 @@
 # Using the WiFi on the NodeMCU board
 
 Besides the price, performance and power consumption, one of the most attractive features of the NodeMCU board is that it has integrated WiFi. This wireless network interface is accessible through the Arduino C-code, which makes the creation of network-enabled devices very easy. The use of this board is taking a large part of making the [Internet of Things](https://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanation-internet-things-that-anyone-can-understand/#7c37f9761d09) a reality.  
+In order to try this example, please download the `.ino` file at the bottom of the page.
 
 ## What can the Wifi module do?
 According to the [datasheet](https://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf) of the ESP-12E module found on the NodeMCU board, the WiFi module:

@@ -1,6 +1,7 @@
 # Reading the colour sensor with the Adafruit libraries
 
-Before trying this example, [make sure you can upload code to your board](getting_started.md), and you have [downloaded the required libraries](arduino.md). We will also use [some debugging techniuqes](debug.md) too.
+Before trying this example, [make sure you can upload code to your board](getting_started.md), and you have [downloaded the required libraries](arduino.md). We will also use [some debugging techniuqes](debug.md) too.  
+In order to try this example, please download the `.ino` file at the bottom of the page.
 
 In this example, we will use the included [TCS23725](https://cdn-shop.adafruit.com/datasheets/TCS34725.pdf) colour sensor, with [Adafruit's](https://github.com/adafruit/Adafruit_TCS34725) Arduino library. In addition to the red, green and blue primaries, it has a clear channel, and a built-in 'white' LED.  
 Inside the chip, the photodiodes are connected to an integration circuit and a programmable amplifier. The integration time can be set in 7 steps between 2.4 and 700 milliseconds. The gain can be adjusted in 4 steps. It also has an INT pin that can be used to [trigger interrupts](concurrency.md) in a computer system.  
