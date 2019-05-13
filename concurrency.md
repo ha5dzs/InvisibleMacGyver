@@ -44,7 +44,7 @@ void timed_function()
 }
 ```
 
-The `my_timer.attach(...)` statement attaches a timer interrupt. Every time this interrupt is triggered, it executes `timed_function`. You can use as many of these Ticker objects as you like. it will occupy memory. The Arduino system will let you know if you run out.
+The `my_timer.attach(...)` statement attaches the timer. Every time the specified time is up, it executes `timed_function`. You can use as many of these Ticker objects as you like. it will occupy memory. The Arduino system will let you know if you run out.
 
 # GPIO pin-based interrupts
 
