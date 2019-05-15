@@ -1,9 +1,10 @@
 # Concurrency: interrupts and timers.
 
-Single-core computers can only ever execute one operation at a time. The illusion of multi-tasking (aka 'concurrency') with these kinds of computers is achieved via time division. In a decent computer, where there is an operating system, the kernel takes care of resource allocation, or scheduling. Scheduling resources is a branch of science itself, and some schedulers [with really weird names](http://ck.kolivas.org/patches/bfs/bfs-faq.txt) are being used.
+Single-core computers can only ever execute one operation at a time. The illusion of multi-tasking (aka 'concurrency') with these kinds of computers is achieved via time division. In a decent computer, where there is an operating system, the kernel takes care of resource allocation, or scheduling. Scheduling resources is a branch of science itself, and some schedulers [with really weird names](http://ck.kolivas.org/patches/bfs/bfs-faq.txt) are being used. It is possible to run an [operating system](https://github.com/cesanta/mongoose-os) on the ESP modules, but this is outside the scope of this project.  
 
 In a microcontroller, such as the one the NodeMCU uses, concurrency without a scheduler can be easily achieved with interrupts.  
 In Arduino, during normal operation, the `loop()` function runs. When -previously properly set up- interrupt is triggered, the processor saves (also called a `push` operation) all the variables to piece of memory called the stack, and executes the interrupt function with a clean environment. Once the interrupt function has finished, the variables are being recalled (also called a `pop` operation) back from the stack and everything continues like if nothing happened.
+
 
 # Timers
 
