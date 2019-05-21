@@ -143,7 +143,7 @@ However, please be aware that if you use a large number of LEDs, you need to giv
 ## Measuring colours a bit more accurately with the TCS sensor and the NodeMCU board
 
 When I looked at the [TCS RGBC Sensor's](../tcs_code.md) implementation, I found that the detected colours are weird and the reported colour temperature values are not realistic.  
-I think the problem was that the sensor's colour filters were not taken properly into account, and therefore it's not returning the correct values. I wrote about this very briefly in my [other repository]https://github.com/ha5dzs/colour_sensor_primary_calculator), and came up with a Matlab script that calculates the primary colours of the sensor using their spectral response. Of course, there are manufacturing tolerances, so this will be as accurate as a decent instrument, but well, its cost is only 2-3 dollars or so. I got it to within 10% though. Hope you can use it!  
+I think the problem was that the sensor's colour filters were not taken properly into account, and therefore it's not returning the correct values. I wrote about this very briefly in my [other repository](https://github.com/ha5dzs/colour_sensor_primary_calculator), and came up with a Matlab script that calculates the primary colours of the sensor using their spectral response. Of course, there are manufacturing tolerances, so this will be as accurate as a decent instrument, but well, its cost is only 2-3 dollars or so. I got it to within 10% though. Hope you can use it!  
 
 I made an implementation which displays the results on the [OLED](..//oled_code.md) screen. The wiring description is inside the code.
 
