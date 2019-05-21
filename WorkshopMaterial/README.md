@@ -3,7 +3,7 @@
 >Angus MacGyver is the main character of a famous television series from the 1980's called MacGyver. He is portrayed as a good person, who wants to save good people from bad people. Instead of using guns and violence, his talent lies in improvising: he always achieves his goal by coming up with simple and clever solutions.  
 > Some of the solutions shown in the TV series do actually work in real life, like the one where he once fixed a car with an egg.
 
-###**All the workshop material is added into a single page to make searching easier.**
+### **All the workshop material is added into a single page to make searching easier.**
 Nobody expects you to read all this! Just find what you want, no hard feelings.
 
 Here we are. We have an experiment to do, and you are recording using two completely different proprietary systems, and you want to make sure your data won't be garbage. You can try getting support from the manufacturers, but even if they bother to respond (provided they still exist), don't expect them to solve this problem for you. To them, you are the single tiny problematic customer, who wants to do weird things on what something you call science. Once you have explained your problem to them, they probably see it as an eccentric academic's whim, and certainly not something they can make money from.  
