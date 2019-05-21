@@ -19,7 +19,7 @@ The kit consists of:
 
 The device is being programmed with [Arduino](http://www.arduino.cc) and its support libraries. I organised some examples and tutorials into various themes. All `.ino` files are loadable on their own.  
 
-# [Ckick here for the workshop material](https://github.com/ha5dzs/InvisibleMacGyver/tree/master/WorkshopMaterial)
+# [Click here for the workshop material](https://github.com/ha5dzs/InvisibleMacGyver/tree/master/WorkshopMaterial)
 
 ## Basics
 
